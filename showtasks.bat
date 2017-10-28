@@ -1,5 +1,5 @@
 call runcrud.bat
-if %ERRORLEVEL% == 0 goto getTasksChrome
+if "%ERRORLEVEL%" == "0" goto getTasksChrome
 echo.
 echo compilation error
 goto fail
