@@ -22,7 +22,7 @@ public class CreatedTrelloCard {
     private String shortUrl;
 
     @JsonProperty("badges")
-    private List<TrelloBadgesList> badges;
+    private TrelloBadgesList badges;
 
 
 }
