@@ -10,8 +10,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.mail.javamail.JavaMailSender;
 
 
-
-
 @Service
 public class SimpleEmailService {
 
